@@ -6,6 +6,9 @@ module.exports = function (config) {
   config.addPassthroughCopy("./_site/css");
   config.addPassthroughCopy("./_site/js");
 
+  //add shortcodes
+  config.addShortcode("year", () => `${new Date().getFullYear()}`);
+
   // Add Date filters
   config.addFilter("date", (dateObj) => {
     return dayjs(dateObj).format("MMMM D, YYYY");
