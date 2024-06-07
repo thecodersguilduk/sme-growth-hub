@@ -2,6 +2,7 @@ const sanityClient = require('@sanity/client');
 const config = require('../../sanity-config');
 const query = `*[_type == "course" && !(_id in path("drafts.**"))] {
     _id,
+	isActive,
     title,
     subtitle,
     "featuredImage": featuredImage.asset->url,
