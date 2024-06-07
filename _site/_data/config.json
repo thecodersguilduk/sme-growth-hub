@@ -1,9 +1,9 @@
 {
-  "siteTitle": "My Eleventy Site with Tailwind CSS",
-  "url": "https://example.com",
-  "description": "This is a default template for Eleventy with TailwindCSS",
-  "keywords": "eleventy, 11ty, tailwind, tailwindcss, css, ssg",
-  "image": "https://www.11ty.dev/img/built/IdthKOzqFA-350.avif",
-  "twitter": "@jeremy_daly",
+  "siteTitle": "SME Growth Hub from The Coders Guild",
+  "url": "https://thecodersguild.co.uk",
+  "description": "Enhance your team’s capabilities with government-funded tech training. Book a free consultation today and discover how our bespoke training plans can upskill your team and boost productivity.",
+  "keywords": "it training, apprenticeships, courses, computing, tech, getting into tech, upskilling my team, team training",
+  "image": "https://thecodersguild.org.uk/images/chevrons-3.png",
+  "twitter": "@the_codersguild",
   "card": "summary"
 }
